@@ -15,7 +15,7 @@
       >
         Algoritam 3
       </div>
-      <q-img src="src/assets/cover.png" style="width: 100%; height: 175px;" />
+      <q-img src="/public/cover.png" style="width: 100%; height: 175px;" />
       <q-separator color="black" size="10px" />
     </q-header>
 
