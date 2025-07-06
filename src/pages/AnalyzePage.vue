@@ -140,7 +140,7 @@ const submitForm = async () => {
     if (textInput.value) formData.append('text_input', textInput.value)
     if (file.value) formData.append('file', file.value)
 
-    const response = await fetch('http://127.0.0.1:8000/analyze', {
+    const response = await fetch('https://backend-bioinformatika.onrender.com/analyze', {
       method: 'POST',
       body: formData
     })
